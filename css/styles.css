@@ -1,5 +1,149 @@
-
+/* mobile first css */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 100%;
+	/*font-size: 62.5%;  this is 10px */
+}
+
+/*
+•	Paragraphs = 18px
+•	Heading h1 = 44px
+•	Heading h2 = 35px
+•	Heading h3 = 28px
+•	Heading h4 = 22px
+*/
+
+/* header */
+
+header{
+	margin-bottom: 1rem;
+}
+
+nav{
+	margin-top: 1.5rem;
+	margin-left: 73rem;
+}
+
+nav a{
+	text-decoration: none;
+	 border: 1px solid black;
+	 border-radius: 0.2rem;
+	 padding: 0.5rem 0.3rem;
+	 margin-right: 0.5rem;
+}
+
+header, 
+footer{
+	display: flex;
+}
+
+footer div{
+	display: flex;
+	margin-left: 75.3rem;
+}
+
+footer{
+	margin-bottom: 1.5rem;
+	margin-left: 3.50rem;
+}
+
+.links a{
+	margin-top: 0.1rem;
+	margin-left: 0.5rem;
+}
+
+/* main */
+
+main{
+	margin-bottom: 1rem;
+}
+
+.banner{
+	background: url("../img/white-architecture.jpg") center bottom / cover no-repeat;
+	height: 25rem;
+}
+
+.col{
+	display: flex;
+	margin: 4rem 0;
+}
+
+.col p{
+	border: 1px solid black;
+	padding: 0.75rem 0.75rem 2rem 0.75rem;
+	width: 35.25rem;
+}
+
+.landscapes,
+.spaces,
+.urban-rehab{
+	width: 36.25rem;
+	margin-left: 1.25rem;
+}
+
+.landscapes{
+	margin-left: 3.50rem;
+}
+
+.new-york-city{
+	display: flex;
+	margin-top: 1.25rem;
+	background-color: #dadbdf;
+}
+
+.new-york-city div{
+	display: inline-block;
+}
+
+.new-york-city img{
+	padding: 4rem 2rem 4rem 4rem;
+}
+
+.new-york-city h2{
+	margin: 0;
+	margin-top: 2.5rem;
+}
+
+.new-york-city p{
+	margin: 0;
+	margin-bottom: 2.5rem;
+	margin-top: 1rem
+}
+
+.new-york-city a{
+	text-decoration: none;
+	color: #fff;
+	background-color: #6f7374;
+	padding: 0.8rem 1rem;
+	border-radius: 0.3rem;
+}
+
+/* headers and p */
+
+h1{
+	font-size: 2.75rem;
+	margin: 1rem 0 1rem 5rem;
+}
+
+h2{
+	font-size: 2.1875rem;
+	margin: 0 0 0rem 5rem;
+	padding-top: 1rem;
+}
+
+h3{
+	font-size: 1.5625rem;
+	margin: 0 0 0 1rem;
+	padding: 1rem;
+	background-color: #6f7374;
+	color: #fff;
+}
+
+h4{
+	font-size: 1.375rem;
+}
+
+p{
+	font-size: 1.125rem;
+	margin: 0 0 0 1rem;
+	line-height: 1.5;
 }

@@ -1,4 +1,3 @@
-
 /*Hybrid of Andy Bell's reset*/
 
 *,
@@ -14,6 +13,10 @@ figcaption, figure, blockquote,
 li, dd {
 	margin: 0;
 	padding: 0;
+}
+
+h1, h2, h3, h4{
+	font-size: 16px;
 }
 
 ul, ol {
